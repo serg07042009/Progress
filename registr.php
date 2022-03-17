@@ -16,7 +16,7 @@
  		$stmt = $connection->prepare($query);
  		$stmt->execute($array);
  		$_SESSION['message'] ='Регитрация прошла успешно!';
- 		header('Location: 1.php');
+ 		header('Location: index.php');
 
  	}
  	else{

@@ -4,10 +4,8 @@
 	padding: 0;
 }
 body{
-	display: flex;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
+	width: 100%;
+	background: #242424;
 }
 a{
 	color: #7c9ab7;
@@ -20,7 +18,7 @@ p{
 form{
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 350px;
 }
 
 input{
@@ -35,4 +33,24 @@ button{
 	background: #e3e3e3;
 	border: unset;
 	cursor: pointer;
+}
+.all{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.header{
+	height: 150px;
+	background: #1a1a1a;
+}
+.footer{
+	height: 100px;
+	background: #1a1a1a;
+}
+.content{
+	display: flex;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	background: #C7C0AE;
 }
