@@ -14,9 +14,9 @@
  	$category = $stmt->fetch(PDO::FETCH_LAZY);
 	if ($category == "") {
 		$_SESSION['message'] ='Пароль или логин не совпадают';
- 		header('Location: 1.php');
+ 		header('Location: index.php');
 	}
 	else{
-		header('Location: Zad3_1.php');
+		header('Location: chat.php');
 	}
 ?>
